@@ -1,4 +1,4 @@
-# Script bash para validar el número identidad de la cédula ecuatoriana
+# Script bash para validar el número de identidad de la cédula ecuatoriana
 
 Script para comprobar la validez del documento de identidad emitido por el estado ecuatoriano.
 
