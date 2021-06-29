@@ -14,7 +14,7 @@ verificar_numero(){
 
 	if [ ${#cedula} -eq 10  ]; then # Comprueba que la cédula tenga 10 dígitos.
 
-		for i in $(seq 1 9); do # Ciclo for que cuenta desde el uno al nuevo.
+		for i in $(seq 1 9); do # Ciclo for que cuenta desde el uno al nueve.
 			
 			nm=$(expr substr $cedula $i 1) # Corta la cadena de texto de la cédula en dígitos individuales y los almacena en la variable nm.
 			
