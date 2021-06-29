@@ -52,7 +52,7 @@ verificar_numero(){
 		
 		fi
 
-		if [ $comp -eq $(expr substr $cedula 10 1) ]; then # Comprueba si el dígito de comprobación es igual al íltimo dígito de la cédula.
+		if [ $comp -eq $(expr substr $cedula 10 1) ]; then # Comprueba si el dígito de comprobación es igual al último dígito de la cédula.
 		
 			echo Cedula Valida
 		
